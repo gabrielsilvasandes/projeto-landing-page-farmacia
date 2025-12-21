@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --cor00: #ffffff;
+    --cor01: #38b6ff;
+    --cor02: #0d203b;
+    --cor03: #00bf63;
+    --cor04: #f2efeb;
+
+    --fonte-color: rgb(31, 41, 55);
+    --fonte-padrao: "Inter", "Segoe UI", sans-serif;
+}
+
+* {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: var(--fonte-padrao);
+    color: var(--fonte-color);
+}
+
+header {
+    position: inherit;
+    background-color: var(--cor00);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+header > nav {
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    top: 0px;
+    margin-left: 20px;
+}
+
+header > nav:hover {
+    display: inline-block;
+    position: relative;
+    left: 550px;
+    top: 0px;
+    margin-left: 20px;
+    background-color: var(--cor01);
+    color: var(--cor02);
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+main > .id1 > h1 {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: bolder;
+    color: var(--cor00);
+}
+
+main > .id1 > p {
+    margin-top: 0px;
+    color: var(--cor00);
+    text-align: center;
+}
+
+main > .id1 > button {
+    position: relative;
+    left: 47%;
+    background-color: var(--cor00);
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 13px;
+    color: var(--cor01);
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.id1 {
+    background-color: var(--cor01);
+    padding: 50px;
+}
