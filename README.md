@@ -76,5 +76,3 @@ Este projeto representa uma **evolução nos estudos**, saindo de projetos conce
 
 **Gabriel Silva Sandes**
 **Desenvolvedor Front-End e Designer Gráfico Freelancer**
-
-Só mandar o próximo 🚀
