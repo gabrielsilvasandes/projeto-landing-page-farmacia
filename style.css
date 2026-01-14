@@ -13,9 +13,16 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     font-family: var(--fonte-padrao);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .sub-cabecalho {
@@ -27,13 +34,12 @@
 }
 
 h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 .cabecalho {
-    padding-top: 10px;
     padding-bottom: 10px;
 }
 
@@ -107,4 +113,107 @@ h2 {
     display: block;
     margin: 0 auto;
     margin-top: 35px;
+}
+
+.categorias {
+    width: 350px;
+    height: 170px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.categorias > p {
+    position: relative;
+    top: 135px;
+}
+
+.categorias > img {
+    height: 80px;
+}
+
+.id-02 > h2 {
+    text-align: center;
+}
+
+.id-02 > .container > div {
+    width: 300px;
+    height: 290px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.id-02 > .container > div > p {
+    position: relative;
+    top: 30px;
+    margin-top: 10px;
+}
+
+.id-02 > .container > div > button {
+    position: relative;
+    top: 60px;
+    border: 0px none;
+    border-radius: 10px;
+    background-color: var(--cor01);
+    padding: 10px;
+    color: var(--cor00);
+}
+
+.id-02 > .container > div > .preco {
+    font-weight: bolder;
+    color: var(--cor01);
+    font-size: 30px;
+}
+
+.id-02 > .container > div > .titulos {
+    font-weight: 500px;
+}
+
+.id-02 > .container > div > img {
+    height: 80px;
+}
+
+.id-03 > h2 {
+    font-size: xx-large;
+}
+
+.id-03 > p {
+    text-align: center;
+    margin: 30px;
+}
+
+.id-03 > .container > div {
+    text-align: center;
+    width: 600px;
+    height: 190px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.199);
+    border-radius: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.id-03 > .container > div > img {
+    position: relative;
+    top: 20px;
+    height: 50px;
+}
+
+.id-03 > .container > div > p {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.id-03 > .container > .texto {
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    bottom: 60px;
 }
